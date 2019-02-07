@@ -1,0 +1,486 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.menubar{
+    width: 100%;
+    height: 100px;
+    background: grey;
+    position: fixed;
+}
+.menubar img{
+    padding-top:20px;
+    padding-left: 120px;
+}
+.menubar ul{
+    width: 70%;
+    float: right;
+    list-style-type: none;
+    padding: 20px;
+}
+.menubar li{
+    float: left;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-right: 2px;
+    background: white;
+}
+.menubar li:hover{
+    background-color:skyblue;
+}
+.menubar a{
+    color: black;
+    text-decoration:none;
+}
+.home{
+    background-image: url(img1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+}
+.home h2{
+text-align: center;
+font-size: 2em;
+padding-top: 100px;
+color: wheat;
+font-family: calibri;
+}
+.home h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: calibri;
+    color: white;
+}
+.home p{
+    text-align: center;
+    font-family: calibri;
+    color: white;
+    font-size:1em;
+}
+.home input[type=submit]{
+    border-color:green;
+    padding: 15px 30px;
+    margin :30px;
+    margin-left:300px;
+    color:white;
+    border-radius: 5px;
+    background:green;
+    font-size:1em;
+}
+
+.about{
+width: 100%;
+height: 500px;
+margin: auto;
+padding: 80px 0;
+}
+.about h1{
+    text-align: center;
+    font-family: calibri;
+    padding: 20px;
+    margin: auto;
+    font-size: 3em;
+}
+.about p{
+    text-align: center;
+    font-family: calibri;
+    padding-bottom: 20px;
+    margin: auto;
+}
+.box{
+    width: 20%;
+    float: left;
+    padding-left: 60px;
+    margin:auto;
+}
+.box img{
+    padding: 30px 50px 20px 90px;
+    margin:auto;
+}
+.box h1{
+    font-size:2em;
+    font-family: calibri;
+    margin: auto;
+    padding-bottom:20px;
+}
+.box p{
+    margin: auto;
+    font-size: 1em;
+}
+.banner{
+
+margin: auto;
+background: black;
+width: 100%;
+height: 300px;
+}
+.banner h1{
+color: white;
+font-size: 2em;
+font-family: calibri;
+padding-top:100px;
+padding-left:300px;
+
+}
+.banner p{
+    color: white;
+    font-family: calibri;
+    font-size:1 em;
+    width:60%;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    float: left;
+}
+.banner input[type=submit]{
+    color:white;
+    background: green;
+    border-color: green;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: calibri;
+    padding: 10px 40px;
+    margin-top:1px;
+    margin-left: 200px;
+}
+.project{
+    width: 100%;
+    height: 700px;
+    padding-top:50px;
+}
+.project h1{
+    text-align:center;
+    
+    font-size: 2em;
+}
+.project p{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.project ul{
+    padding-left: 300px;
+    list-style-type: none;
+    background: white;
+}
+.project li{
+    float: left;
+    margin: 2px 30px;
+    border-radius: 5px;
+padding: 15px 10px;
+}
+.project li:hover{
+    background: green;
+}
+.image{
+width: 100%;
+float: left;
+height: 400px;
+margin-top: 50px;
+margin-left: 100px;
+
+}
+
+.image img{
+    float: left;
+    margin: 5px 10px;
+}
+.achievement{
+    width: 100%;
+    height: 400px;
+    background-image: url(img1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.achievement h1{
+    font-size:3em;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    
+    font-family: calibri;
+}
+.achievement p{
+font-size:20px;
+color: white;
+text-align: center;
+font-family: calibri;
+}
+.event{
+    padding-top: 50px;
+    width: 100%;
+    height: 800px;
+}
+.event h1{
+    font-size: 3em;
+    text-align: center;
+}
+.event p{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.b1{
+    width: 100%;
+    height: 600px;
+    
+}
+.box1{
+    width: 60%;
+    height: 600px;
+    float: left;
+    margin-left: 10px;
+}
+.left img{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+.right{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.left{
+    width: 50%;
+    height: 300px;
+    float: left;
+    
+}
+.right h1{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 50px;
+}
+.right h2{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+.left h1{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 50px;
+}
+.left h2{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+.right img{
+    width: 80%;
+    padding-left: 10px;     
+margin: auto;
+}
+.right p{
+    margin: 20px;
+    text-align: center;
+    font-size: 1em;text-align: 
+}
+.left p{
+    margin: 20px;
+text-align: center;
+font-size: 1em;
+}
+.left input[type=submit]{
+    color: white;
+    background: black;
+    border-radius: 7px;
+    padding: 8px;
+    font-size: 13px;
+    width: 100px;
+    margin-left: 150px;
+    border: black;
+}
+.right input[type=submit]{
+    color: white;
+    background: black;
+    border-radius: 7px;
+    padding: 8px;
+    font-size: 13px;
+    width: 100px;
+    margin-left: 150px;
+    border: black;
+}
+.box2{
+height: 600px;
+width: 40%;
+float: right;
+margin-top: -600px;
+
+}
+.l{
+float: left;
+width: 30%;
+}
+.r{
+float: left;
+width: 60%;
+}
+.tes{
+    padding-top:50px;
+    width: 100%;
+    height: 500px;
+    background-image: url(img3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.tes h1{
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    font-family: calibri;
+}
+.tes p{
+    font-size: 1em;
+    color: white;
+    font-family: calibri;
+    text-align: center;
+}
+.blog{
+    width: 100%;
+    height: 800px;
+}
+.blog h1{
+    font-size: 2em;
+   
+    text-align: center;
+    padding-top: 15px;
+}
+.blog p{
+    text-align: center;
+    padding-top: 20px;
+}
+.box3{
+    width: 30%;
+    float: left;
+    padding-top: 30px;
+    padding-left: 40px;
+    height: 500px;
+}
+.box3 img{
+    margin: auto;
+    padding: 30px 50px 20px 90px;
+}
+.box3 h2{
+text-align: center;
+}
+.box3 p{
+    text-align: center;
+}
+.theme{
+    width: 100%;
+    height: 250px;
+    background: black;
+    margin-top: -180px;
+}
+.theme h1{
+    padding-top: 100px ;
+    padding-left: 100px;
+    color: white;
+    font-size: 2em;
+}
+.theme input[type=submit]{
+    color: black;
+    background: green;
+    border-radius: 5px;
+    padding: 12px 42px;
+    margin-left: 1000px;
+    border: black;
+}
+.end{
+    padding-top:30px;
+    height: 150px;
+}
+.end img{
+padding: 70px;
+padding-left: 80px;
+}
+.contact{
+    background: lightgrey;
+    height: 600px;
+}
+.contact h1{
+    font-size: 3em;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.contact p{
+text-align: center;
+padding-top: 20px;
+}
+.cl{
+    width: 50%;
+    float: left;
+}
+.cl h1{
+    text-align: center;
+    font-size: 2em;
+}
+.cl h2{
+    font-size: 1em;
+    text-align: center;
+    padding: 20px;
+}
+.cr{
+    width: 50%;
+    float: left;
+    
+}
+.cr h2{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 40px;
+    
+}
+.cr input[type=text]{
+    background:gainsboro;
+        padding: 20px 70px;
+    border-radius: 10px;
+    border: grey;
+    width: 40%;
+    margin: 10px;
+}
+
+.cr input[type=email]{
+    background:gainsboro;
+    border-radius: 10px;
+    border: grey;
+    width: 40%;
+    margin: 10px;
+    
+    padding: 20px 70px;
+}
+.cr textarea{
+    background:gainsboro;
+}
+
+.cr input[type=submit]{
+    border-radius: 5px;
+    padding: 10px 50px;
+    color: black;
+    background: green;
+    border: green;
+    margin-left: 20px;
+    margin-top: 6px;
+    
+}
+.last{
+    height: 150px;
+    width: 100%;
+    background: black;
+}
+.last h1{
+    color: white;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.last h2{
+    color:white;
+    float: right;
+    font-size: 1.8em;
+    padding-right: 40px; 
+}
